@@ -5,7 +5,7 @@
 app.service('chatService', function($q, $timeout) {
 
 	console.log('starting chatService')
-	var BASE_URL = "http://localhost:8080/chatbizb";
+	var BASE_URL = "http://localhost:8081/chatbizb";
 
 	var service = {}, listener = $q.defer(), socket = {
 		client : null,

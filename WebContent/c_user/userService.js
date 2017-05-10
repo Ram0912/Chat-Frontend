@@ -5,7 +5,7 @@
 app.factory('userService', function($http) {
 	console.log('-----starting userService.js')
 
-	var BASE_URL = "http://localhost:8080/chatbizb"
+	var BASE_URL = "http://localhost:8081/chatbizb"
 
 	var userService = this;
 

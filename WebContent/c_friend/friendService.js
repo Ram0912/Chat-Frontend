@@ -3,7 +3,7 @@
 app.factory('friendService', function($http, $rootScope) {
 	console.log('entering friendService')
 
-	var BASE_URL = "http://localhost:8080/chatbizb"
+	var BASE_URL = "http://localhost:8081/chatbizb"
 
 	var friendService = this;
 

@@ -1,10 +1,8 @@
-/**
- * Created by ikism on Nov 30, 2016
- */
+
 
 app.factory('blogService', function($http) {
 	console.log('starting blogService')
-	var BASE_URL = "http://localhost:8080/chatbizb"
+	var BASE_URL = "http://localhost:8081/chatbizb"
 
 	var blogService = this;
 	blogService.fetchAllBlogs = function() {

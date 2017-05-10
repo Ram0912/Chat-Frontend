@@ -52,7 +52,7 @@ app.config(function($routeProvider) {
 // angular.module('myApp.chatController', []);
 // angular.module('myApp.chatService', []);
 
-app.run(function ($rootScope, $location, $cookieStore, $http){
+/*app.run(function ($rootScope, $location, $cookieStore, $http){
 
 	$rootScope.$on('$locationChangeStart', function(event, next, current){
 	console.log("$locationChangeStart")
@@ -75,4 +75,4 @@ app.run(function ($rootScope, $location, $cookieStore, $http){
 	$http.defaults.headers.common['Authorization'] = 'Basic ' + $rootScope.currentUser;
 	
 	}
-	});
+	});*/

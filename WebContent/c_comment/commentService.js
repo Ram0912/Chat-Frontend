@@ -2,7 +2,7 @@
 
 app.factory('commentService',function($http){
 	console.log('starting commentService')
-	var BASE_URL = "http://localhost:8080/chatbizb"
+	var BASE_URL = "http://localhost:8081/chatbizb"
 		
 	var commentService = this;
 	commentService.fetchAllComments = function(blogId){

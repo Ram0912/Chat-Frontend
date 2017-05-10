@@ -4,7 +4,7 @@
 app.factory('jobService', function($http) {
 	console.log('entering jobService')
 
-	var BASE_URL = "http://localhost:8091/Collaboration"
+	var BASE_URL = "http://localhost:8081/chatbizb"
 
 	var jobService = this;
 
